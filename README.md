@@ -1,5 +1,5 @@
 # Flutter Social UIKit
-Flutter Onboarding App
+Flutter Budget Planner
 
 
 ## Screenshots
