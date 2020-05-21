@@ -20,8 +20,23 @@ Flutter Budget Planner - Onboarding UIKit
 
 <div style="display:flex;margin-top:50px">
 <img style="margin-right:20px" src="screenshots/nine.png" width="200px">
+<img src="screenshots/ten.png" width="200px">
+<img src="screenshots/eleven.png" width="200px">
 <img src="screenshots/twelve.png" width="200px">
-<img src="screenshots/thirteen.png" width="200px">
+</div>
+
+<div style="display:flex;margin-top:50px">
+<img style="margin-right:20px" src="screenshots/thirteen.png" width="200px">
+<img src="screenshots/fourteen.png" width="200px">
+<img src="screenshots/fifteen.png" width="200px">
+<img src="screenshots/sixteen.png" width="200px">
+</div>
+
+<div style="display:flex;margin-top:50px">
+<img style="margin-right:20px" src="screenshots/seventeen.png" width="200px">
+<img src="screenshots/eighteen.png" width="200px">
+<img src="screenshots/nineteen.png" width="200px">
+<img src="screenshots/twenty.png" width="200px">
 </div>
 
 

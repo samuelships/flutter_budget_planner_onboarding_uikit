@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_onboarding_app/Screens/CreatePasscodeScreen.dart';
-import 'package:flutter_onboarding_app/Screens/LoginPasscodeScreen.dart';
-import 'package:flutter_onboarding_app/Screens/MobileNumberScreen.dart';
-import 'package:flutter_onboarding_app/Screens/MoreAboutYouScreen.dart';
-import 'package:flutter_onboarding_app/Screens/MoreAboutYouTwoScreen.dart';
-import 'package:flutter_onboarding_app/Screens/OneLastThingScreen.dart';
-import 'package:flutter_onboarding_app/Screens/VerificationCodeScreen.dart';
+import 'package:flutter_onboarding_app/Screens/AddAccount.dart';
+import 'package:flutter_onboarding_app/Screens/AddManualAccount.dart';
+import 'package:flutter_onboarding_app/Screens/GoPremiumChoosedScreen.dart';
+import 'package:flutter_onboarding_app/Screens/GoPremiumScreen.dart';
+import 'package:flutter_onboarding_app/Screens/NoAccountScreen.dart';
+import 'package:flutter_onboarding_app/Screens/SuccessfulAddedScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,9 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(),
-        home: MoreAboutYouTwoScreen());
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(),
+      home: GoPremiumChoosedScreen(),
+    );
   }
 }
